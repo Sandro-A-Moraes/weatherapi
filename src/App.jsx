@@ -3,8 +3,8 @@ import BarraPesquisa from './components/BarraPesquisa'
 import DetalhesClima from './components/DetalhesClima'
 
 const App = () => {
-  const [weather, setWeather] = useState(null)
-  const [city, setCity] = useState('Cameta')
+  const [weather, setWeather] = useState([])
+  const [city, setCity] = useState('Belem')
 
   useEffect(()=>{
     const apiKey = '311c61f2f4cb46c886f164507252106'
