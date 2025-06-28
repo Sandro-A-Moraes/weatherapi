@@ -46,7 +46,7 @@ const App = () => {
   return (
     <div className={`flex flex-col justify-center items-center h-screen bg-gradient-to-b ${backgroundColor1} ${backgroundColor2}`}>
       
-      <div className=' w-4/5 h-5/6 flex flex-col rounded-xl gap-8'>
+      <div className=' max-sm:w-4/5 sm:w-3/5 max-md:w-2/3 md:w-1/2 lg:w-1/3 h-5/6 flex flex-col rounded-xl gap-8'>
         <BarraPesquisa isDay={weather?.isDay} onSearch={setCity}/>
         <DetalhesClima weather={weather} isDay={weather?.isDay}/>
       </div>
