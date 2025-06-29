@@ -4,9 +4,7 @@ const DetalhesClima = ({weather, isDay}) => {
 
   const backgroundCard = isDay === 1 ? 'bg-slate-300' : 'bg-slate-900'
   const textCard = isDay === 1 ? 'text-slate-950' : 'text-slate-300'
-
   const borderCard = isDay === 1 ? 'border-gray-400' : 'border-blue-950'
-
   const shadowCard = isDay === 1 ? 'shadow-gray-400' : 'shadow-blue-700'
 
   return (
